@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+        <nav>
+            <a href="#" class="logo"><span>C</span>alestro</a>
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1><span>Hi, I'm </span>Jemy<br>Calestro</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey, I’m Calestro Jemy (jemmy, jemlox, jem, JR) It’s great to meet you! By the way I'm currently studying BSIT at BISU Balilihan and I consider myself a curious and creative person, always eager to explore new ideas and experiences. I pay close attention to the details, finding inspiration in the little things around me. I enjoy diving into hobbies and discussions that spark my interest, and I like to think I bring a unique perspective to the table. I value growth, both personally and professionally, and while I can be introspective at times, I’m also approachable and enjoy connecting with others. I try to balance confidence with humility and always strive to learn something new.</p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Artist')">Fav Artist</p>
+                            <p class="tab-links" onclick="opentab('food')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <!----------  Artist --------->
+                        <div class="tab-contents active-tab" id="Artist">
+                            <ul>
+                                <li><span>Billie Eilish</span></li>
+                                <li><span>Ariana grande </span></li>
+                                <li><span>Ed sheeran</span></li>
+                                <li><span>Justin Bieber</span></li>
+                                <li><span>Hayley Williams </span></li>
+                            </ul>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents" id="food">
+                            <ul>
+                                <li><span>Pizza</span></li>
+                                <li><span>Sea foods</span></li>
+                                <li><span>Fried chicken </span></li>
+                                <li><span>Cookies </span></li>
+                                <li><span>Halo-halo </span></li>
+                                <li><span>Street foods </span></li>
+                            </ul>
+                        </div>
+                        <!---------- hobbies --------->
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Mobile games</span></li>
+                                <li><span>Computer games</span></li>
+                                <li><span>Singing</span></li>
+                                <li><span>Dancing</span></li>
+                                <li><span>Cooking</span></li>
+                                <li><span>Watching movies</span></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+                        <!----------  band --------->
+        <div id="band">
+            <div class="fcontainer">
+                <h1 class="sub-title">Favorite Band</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/poster1.jpg">
+                        <div class="layer">
+                            <h1>Linkin Park</h1>
+                            <p>Linkin Park is an American rock band formed in Agoura Hills, California, in 1996. The band's current lineup consists of vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, DJ/turntablist Joe Hahn, bassist Dave Farrell, co-lead vocalist Emily Armstrong, and drummer Colin Brittain.</p>        
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster2.jpg">
+                        <div class="layer">
+                        <h1>Cueshe</h1>
+                        <p>Cueshe is a popular OPM rock band from Cebu City, Philippines. The band's name is a combination of the words "cue" and "shé". "Cue" refers to the Filipino snack of banana coated in caramel, while "shé" is a pronoun that refers to the band's former female vocalist. The band's current members are Ruben Caballero, Jovan Mabini, Fritz Labrado, and Cesar. Jay Justiniani was a member from 2001 to 2015.</p>        
+                    </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster3.jpg">
+                        <div class="layer">                       
+                        <h1>Paramore</h1>
+                        <p>independent, 3x Grammy-winner, American neutral-genre band that formed in Franklin, Tennessee in 2004 and currently consists of Hayley Williams, Taylor York, and Zac Farro. Former members include Josh Farro, Jason Bynum, John Hembree, Jeremy Davis, and Hunter Lamb.</p>    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>Calestrojemz@gmail.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09158600490</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>Calestro Jemy</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 Calestro Jemy. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
